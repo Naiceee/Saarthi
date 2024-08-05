@@ -10,7 +10,6 @@ import Footer from "../components/footer/footer";
 function Home() {
   return (
     <>
-      <Navigation />
       <Carousel />
       <HeroSection />
       <Cards />
