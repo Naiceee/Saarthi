@@ -1,4 +1,3 @@
-import Navigation from "../components/navigation/Navigation";
 import Carousel from "../components/UI/Carousel";
 import HeroSection from "../components/UI/HeroSection";
 import Cards from "../components/layouts/Cards";
