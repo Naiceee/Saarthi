@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Navigation() {
   return (
     <div className="navbar bg-base-100">
@@ -42,12 +44,12 @@ function Navigation() {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost text-xl">Saarthi</a>
+        <NavLink to={"/"} className="btn btn-ghost text-xl">Saarthi</NavLink>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-blue-500 text-white hover:bg-blue-400">
-          Login/Signup
-        </a>
+        <NavLink to={"login"} className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-blue-500 text-white hover:bg-blue-400">
+          Login
+        </NavLink>
       </div>
     </div>
   );
