@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import eduBear from "../../assets/img/edu-bear.png"
 
 function HeroSection() {
@@ -15,9 +16,12 @@ function HeroSection() {
               unlock every learner&apos;s potential. Join us in redefining
               learning for a brighter future..
             </p>
-            <button className="btn bg-blue-500 hover:bg-blue-400 text-white">
+            <NavLink
+              to={"/signup"}
+              className="tracking-wide font-semibold bg-blue-900 text-gray-100 w-full py-4 rounded-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none max-w-64"
+            >
               Get Started
-            </button>
+            </NavLink>
           </div>
         </div>
       </div>

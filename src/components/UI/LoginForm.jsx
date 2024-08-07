@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function LoginForm() {
   return (
     <>
@@ -13,10 +15,13 @@ function LoginForm() {
         </label>
         <button
           type="submit"
-          className="btn btn-wide bg-blue-500 hover:bg-blue-400"
+          className="btn btn-wide bg-blue-900 text-gray-100 hover:bg-indigo-700"
         >
           Login
         </button>
+        <div>
+          <NavLink to={"/signup"}>Don't have an account?</NavLink>
+        </div>
       </form>
     </>
   );
