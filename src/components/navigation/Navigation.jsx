@@ -26,19 +26,21 @@ function Navigation() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Help</a>
+              <NavLink to={"/help"}>Help</NavLink>
             </li>
             <li>
-              <a>Contact</a>
+              <NavLink to={"/contact"}>Contact</NavLink>
             </li>
             <li>
-              <a>Apply for Volunteering</a>
+              <NavLink to={"/apply-for-volunteering"}>
+                Apply for Volunteering
+              </NavLink>
             </li>
             <li>
-              <a>Handouts</a>
+              <NavLink to={"/handouts"}>Handouts</NavLink>
             </li>
             <li>
-              <a>Videos</a>
+              <NavLink to={"/videos"}>Videos</NavLink>
             </li>
           </ul>
         </div>
