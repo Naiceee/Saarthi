@@ -7,7 +7,7 @@ function Reviews() {
   return (
     <>
       <h2 className="text-5xl p-10 text-center font-bold">Reviews</h2>
-      <div className="flex justify-center gap-10 p-10 pt-2 carousel rounded-box">
+      <div className="flex flex-col justify-center gap-10 p-10 pt-2 carousel rounded-box sm:flex-row">
         <div className="carousel-item">
           <ReviewCard
             name="John Doe"
