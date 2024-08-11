@@ -45,6 +45,11 @@ function SignupForm() {
                     type="password"
                     placeholder="Password"
                   />
+                  <input
+                    className="w-full px-5 py-3 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white"
+                    type="password"
+                    placeholder="Confirm Password"
+                  />
                   <button className="mt-5 tracking-wide font-semibold bg-blue-900 text-gray-100 w-full py-4 rounded-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                     <svg
                       className="w-6 h-6 -ml-2"
@@ -63,9 +68,7 @@ function SignupForm() {
                   <p className="mt-6 text-xs text-gray-600 text-center">
                     Already have an account?{" "}
                     <NavLink to={"/login"}>
-                      <span className="text-blue-900 font-semibold">
-                        Login
-                      </span>
+                      <span className="text-blue-900 font-semibold">Login</span>
                     </NavLink>
                   </p>
                 </div>

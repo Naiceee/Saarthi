@@ -1,7 +1,5 @@
 function Videos() {
-  return (
-    <div>Videos</div>
-  )
+  return <div>Videos</div>;
 }
 
-export default Videos
+export default Videos;
