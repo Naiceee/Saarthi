@@ -3,12 +3,7 @@ import Home from "./pages/Home";
 import RootLayout from "./pages/Root";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import Help from "./pages/Help";
-import Contact from "./pages/Contact";
-import Volunteering from "./pages/Volunteering";
-import Handouts from "./pages/Handouts";
-import Videos from "./pages/Videos";
-import Dashboard from "./pages/Dashboard";
+import Profile from "./pages/Profile";
 
 const router = createBrowserRouter([
   {
@@ -28,28 +23,8 @@ const router = createBrowserRouter([
         element: <Signup />
       },
       {
-        path: "/help",
-        element: <Help />
-      },
-      {
-        path: "/contact",
-        element: <Contact />
-      },
-      {
-        path: "/apply-for-volunteering",
-        element: <Volunteering />
-      },
-      {
-        path: "/handouts",
-        element: <Handouts />
-      },
-      {
-        path: "/videos",
-        element: <Videos />
-      },
-      {
-        path: "/admin",
-        element: <Dashboard />
+        path: "/profile",
+        element: <Profile/>
       }
     ],
   },

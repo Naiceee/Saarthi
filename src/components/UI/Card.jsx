@@ -1,6 +1,6 @@
 function Card(props) {
     return (
-      <div className="card bg-base-100 image-full w-80% shadow-xl sm:w-[30%]">
+      <div className="card bg-base-100 image-full w-96 shadow-xl">
         <figure>
           <img src={props.img} alt={props.title} />
         </figure>
