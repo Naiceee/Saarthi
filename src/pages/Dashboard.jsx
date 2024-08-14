@@ -1,6 +1,8 @@
+import CourseForm from "../components/UI/CourseForm"
+
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <CourseForm />
   )
 }
 
