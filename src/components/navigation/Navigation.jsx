@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
-    <div className="navbar bg-base-100 shadow-md">
+    <div className="navbar bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -26,21 +26,19 @@ function Navigation() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <NavLink to={"/help"}>Help</NavLink>
+              <a>Help</a>
             </li>
             <li>
-              <NavLink to={"/contact"}>Contact</NavLink>
+              <a>Contact</a>
             </li>
             <li>
-              <NavLink to={"/apply-for-volunteering"}>
-                Apply for Volunteering
-              </NavLink>
+              <a>Apply for Volunteering</a>
             </li>
             <li>
-              <NavLink to={"/handouts"}>Handouts</NavLink>
+              <a>Handouts</a>
             </li>
             <li>
-              <NavLink to={"/videos"}>Videos</NavLink>
+              <a>Videos</a>
             </li>
           </ul>
         </div>

@@ -8,7 +8,7 @@ function Cards() {
     return (
       <>
         <h2 className="text-5xl p-10 text-center font-bold">OUR COURSES</h2>
-        <div className="flex flex-col justify-center gap-10 p-10 pt-2 sm:flex-row">
+        <div className="flex justify-center gap-10 p-10 pt-2">
           <Card img={course1} title={"Grade 11/12/Dropper"} />
           <Card img={course2} title={"Grade 11/12/Dropper"} />
           <Card img={course3} title={"FOUNDATION/INTERMEDIATE"} />
